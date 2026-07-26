@@ -108,3 +108,10 @@ streamlit run desenvolvimento.py   # dashboard
 - ROIC (~10%) próximo, porém abaixo do WACC: criação de valor ainda não sustentada
 
 ## 📁 Estrutura do Repositório
+
+decisor-financeiro/
+├── extrair_demonstrativos.py # Etapa 1: extração do PDF
+├── tratar_dados.py # Etapa 2: tratamento + formato longo
+├── desenvolvimento.py # Etapa 3: dashboard Streamlit
+├── requirements.txt
+└── README.md
