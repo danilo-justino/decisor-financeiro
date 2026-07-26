@@ -1,0 +1,29 @@
+﻿codigo;descricao;nivel;2025;2024;2023
+3.01;Receita de Venda de Bens e/ou Serviços;2;41883,2;35424,2;26110,5
+3.02;Custo dos Bens e/ou Serviços Vendidos;2;-34524,9;-29041,9;-21607,1
+3.03;Resultado Bruto;2;7358,3;6382,2;4503,4
+3.04;Despesas/Receitas Operacionais;2;-4010,2;-2610,1;-2980,8
+3.04.01;Despesas com Vendas;3;-1886,2;-1671,4;-1569,5
+3.04.02;Despesas Gerais e Administrativas;3;-1191,0;-1074,8;-1022,5
+3.04.03;Perdas pela Não Recuperabilidade de Ativos;3;-20,9;-121,6;49,0
+3.04.03.01;Reversão (perda) de crédito esperada;4;-20,9;-121,6;49,0
+3.04.04;Outras Receitas Operacionais;3;510,4;1455,9;844,2
+3.04.05;Outras Despesas Operacionais;3;-1383,7;-1174,5;-1331,9
+3.04.05.01;Pesquisa;4;-412,6;-298,1;-452,8
+3.04.05.02;Despesas Operacionais;4;-971,2;-876,4;-879,1
+3.04.06;Resultado de Equivalência Patrimonial;3;-38,7;-23,6;50,0
+3.05;Resultado Antes do Resultado Financeiro e dos Tributos;2;3348,1;3772,1;1522,6
+3.06;Resultado Financeiro;2;-1892,5;-663,2;-963,7
+3.06.01;Receitas Financeiras;3;1793,8;1106,5;941,3
+3.06.01.01;Variações Monetárias Ativas;4;39,5;-542,4;105,6
+3.06.01.02;Receitas Financeiras;4;1754,3;1648,9;835,7
+3.06.02;Despesas Financeiras;3;-3686,3;-1769,7;-1905,1
+3.06.02.01;Variações Monetárias Passivas;4;-243,8;494,9;-140,9
+3.06.02.02;Despesas Financeiras;4;-3417,0;-2280,2;-1797,5
+3.06.02.03;Instrumentos financeiros derivativos;4;-25,5;15,5;33,4
+3.07;Resultado Antes dos Tributos sobre o Lucro;2;1455,6;3108,9;558,9
+3.08;Imposto de Renda e Contribuição Social sobre o Lucro;2;536,4;-1185,1;225,5
+3.08.01;Corrente;3;536,4;-507,0;-537,8
+3.08.02;Diferido;3;0,0;-678,1;763,3
+3.09;Resultado Líquido das Operações Continuadas;2;1992,0;1923,8;784,4
+3.11;Lucro/Prejuízo Consolidado do Período;2;1992,0;1923,8;784,4

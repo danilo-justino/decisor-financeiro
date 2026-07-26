@@ -1,0 +1,619 @@
+﻿demonstrativo;codigo;descricao;nivel;ano;valor
+BP;1;Ativo Total;1;2023;52201,2
+BP;1;Ativo Total;1;2024;73219,7
+BP;1;Ativo Total;1;2025;71092,1
+BP;1.01;Ativo Circulante;2;2023;29316,1
+BP;1.01;Ativo Circulante;2;2024;40326,9
+BP;1.01;Ativo Circulante;2;2025;39342,8
+BP;1.01.01;Caixa e Equivalentes de Caixa;3;2023;7887,3
+BP;1.01.01;Caixa e Equivalentes de Caixa;3;2024;9678,7
+BP;1.01.01;Caixa e Equivalentes de Caixa;3;2025;10728,8
+BP;1.01.02;Aplicações Financeiras;3;2023;2525,8
+BP;1.01.02;Aplicações Financeiras;3;2024;3961,5
+BP;1.01.02;Aplicações Financeiras;3;2025;3720,2
+BP;1.01.02.01;Aplicações Financeiras Avaliadas a Valor Justo através do Resultado;4;2023;820,6
+BP;1.01.02.01;Aplicações Financeiras Avaliadas a Valor Justo através do Resultado;4;2024;844,9
+BP;1.01.02.01;Aplicações Financeiras Avaliadas a Valor Justo através do Resultado;4;2025;1275,2
+BP;1.01.02.01.02;Títulos Designados a Valor Justo;5;2023;820,6
+BP;1.01.02.01.02;Títulos Designados a Valor Justo;5;2024;844,9
+BP;1.01.02.01.02;Títulos Designados a Valor Justo;5;2025;1275,2
+BP;1.01.02.02;Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes;4;2023;1696,9
+BP;1.01.02.02;Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes;4;2024;209,1
+BP;1.01.02.02;Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes;4;2025;179,2
+BP;1.01.02.03;Aplicações Financeiras Avaliadas ao Custo Amortizado;4;2023;8,2
+BP;1.01.02.03;Aplicações Financeiras Avaliadas ao Custo Amortizado;4;2024;2907,4
+BP;1.01.02.03;Aplicações Financeiras Avaliadas ao Custo Amortizado;4;2025;2265,8
+BP;1.01.03;Contas a Receber;3;2023;1094,0
+BP;1.01.03;Contas a Receber;3;2024;2061,9
+BP;1.01.03;Contas a Receber;3;2025;1594,7
+BP;1.01.03.01;Clientes;4;2023;1094,0
+BP;1.01.03.01;Clientes;4;2024;2061,9
+BP;1.01.03.01;Clientes;4;2025;1594,7
+BP;1.01.03.01.01;Contas a receber;5;2023;1053,6
+BP;1.01.03.01.01;Contas a receber;5;2024;1986,2
+BP;1.01.03.01.01;Contas a receber;5;2025;1592,5
+BP;1.01.03.01.02;Financiamento a clientes;5;2023;40,4
+BP;1.01.03.01.02;Financiamento a clientes;5;2024;75,7
+BP;1.01.03.01.02;Financiamento a clientes;5;2025;2,3
+BP;1.01.04;Estoques;3;2023;12761,7
+BP;1.01.04;Estoques;3;2024;18181,1
+BP;1.01.04;Estoques;3;2025;17976,7
+BP;1.01.06;Tributos a Recuperar;3;2023;1335,8
+BP;1.01.06;Tributos a Recuperar;3;2024;1421,9
+BP;1.01.06;Tributos a Recuperar;3;2025;1008,2
+BP;1.01.06.01;Tributos Correntes a Recuperar;4;2023;1335,8
+BP;1.01.06.01;Tributos Correntes a Recuperar;4;2024;1421,9
+BP;1.01.06.01;Tributos Correntes a Recuperar;4;2025;1008,2
+BP;1.01.07;Despesas Antecipadas;3;2023;241,2
+BP;1.01.07;Despesas Antecipadas;3;2024;363,7
+BP;1.01.07;Despesas Antecipadas;3;2025;513,7
+BP;1.01.08;Outros Ativos Circulantes;3;2023;3470,3
+BP;1.01.08;Outros Ativos Circulantes;3;2024;4658,1
+BP;1.01.08;Outros Ativos Circulantes;3;2025;3800,5
+BP;1.01.08.03;Outros;4;2023;3470,3
+BP;1.01.08.03;Outros;4;2024;4658,1
+BP;1.01.08.03;Outros;4;2025;3800,5
+BP;1.01.08.03.01;Outros ativos;5;2023;920,9
+BP;1.01.08.03.01;Outros ativos;5;2024;720,5
+BP;1.01.08.03.01;Outros ativos;5;2025;945,9
+BP;1.01.08.03.02;Instrumentos financeiros derivativos;5;2023;84,8
+BP;1.01.08.03.02;Instrumentos financeiros derivativos;5;2024;81,8
+BP;1.01.08.03.02;Instrumentos financeiros derivativos;5;2025;47,6
+BP;1.01.08.03.04;Ativos de contrato;5;2023;2464,6
+BP;1.01.08.03.04;Ativos de contrato;5;2024;3855,8
+BP;1.01.08.03.04;Ativos de contrato;5;2025;2807,0
+BP;1.02;Ativo Não Circulante;2;2023;22885,1
+BP;1.02;Ativo Não Circulante;2;2024;32892,8
+BP;1.02;Ativo Não Circulante;2;2025;31749,3
+BP;1.02.01;Ativo Realizável a Longo Prazo;3;2023;2465,1
+BP;1.02.01;Ativo Realizável a Longo Prazo;3;2024;4454,0
+BP;1.02.01;Ativo Realizável a Longo Prazo;3;2025;4299,4
+BP;1.02.01.01;Aplicações Financeiras Avaliadas a Valor Justo através do Resultado;4;2023;0,0
+BP;1.02.01.01;Aplicações Financeiras Avaliadas a Valor Justo através do Resultado;4;2024;848,9
+BP;1.02.01.01;Aplicações Financeiras Avaliadas a Valor Justo através do Resultado;4;2025;581,0
+BP;1.02.01.01.01;Títulos Designados a Valor Justo;5;2023;0,0
+BP;1.02.01.01.01;Títulos Designados a Valor Justo;5;2024;848,9
+BP;1.02.01.01.01;Títulos Designados a Valor Justo;5;2025;581,0
+BP;1.02.01.02;Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes;4;2023;0,0
+BP;1.02.01.02;Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes;4;2024;430,2
+BP;1.02.01.02;Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes;4;2025;417,3
+BP;1.02.01.03;Aplicações Financeiras Avaliadas ao Custo Amortizado;4;2023;823,3
+BP;1.02.01.03;Aplicações Financeiras Avaliadas ao Custo Amortizado;4;2024;877,5
+BP;1.02.01.03;Aplicações Financeiras Avaliadas ao Custo Amortizado;4;2025;590,5
+BP;1.02.01.04;Contas a Receber;4;2023;279,5
+BP;1.02.01.04;Contas a Receber;4;2024;137,3
+BP;1.02.01.04;Contas a Receber;4;2025;51,3
+BP;1.02.01.04.01;Clientes;5;2023;16,3
+BP;1.02.01.04.01;Clientes;5;2024;12,5
+BP;1.02.01.04.01;Clientes;5;2025;9,4
+BP;1.02.01.04.03;Financiamento a clientes;5;2023;263,2
+BP;1.02.01.04.03;Financiamento a clientes;5;2024;124,8
+BP;1.02.01.04.03;Financiamento a clientes;5;2025;41,9
+BP;1.02.01.07;Tributos Diferidos;4;2023;666,6
+BP;1.02.01.07;Tributos Diferidos;4;2024;1077,6
+BP;1.02.01.07;Tributos Diferidos;4;2025;649,9
+BP;1.02.01.07.01;Imposto de Renda e Contribuição Social Diferidos;5;2023;666,6
+BP;1.02.01.07.01;Imposto de Renda e Contribuição Social Diferidos;5;2024;1077,6
+BP;1.02.01.07.01;Imposto de Renda e Contribuição Social Diferidos;5;2025;649,9
+BP;1.02.01.08;Despesas Antecipadas;4;2023;81,0
+BP;1.02.01.08;Despesas Antecipadas;4;2024;110,5
+BP;1.02.01.08;Despesas Antecipadas;4;2025;88,4
+BP;1.02.01.10;Outros Ativos Não Circulantes;4;2023;614,7
+BP;1.02.01.10;Outros Ativos Não Circulantes;4;2024;972,0
+BP;1.02.01.10;Outros Ativos Não Circulantes;4;2025;1920,8
+BP;1.02.01.10.03;Tributos a recuperar;5;2023;245,5
+BP;1.02.01.10.03;Tributos a recuperar;5;2024;376,2
+BP;1.02.01.10.03;Tributos a recuperar;5;2025;293,4
+BP;1.02.01.10.04;Outros ativos;5;2023;357,7
+BP;1.02.01.10.04;Outros ativos;5;2024;587,4
+BP;1.02.01.10.04;Outros ativos;5;2025;1341,7
+BP;1.02.01.10.07;Ativos de contrato;5;2023;11,5
+BP;1.02.01.10.07;Ativos de contrato;5;2024;8,5
+BP;1.02.01.10.07;Ativos de contrato;5;2025;285,7
+BP;1.02.02;Investimentos;3;2023;136,4
+BP;1.02.02;Investimentos;3;2024;270,6
+BP;1.02.02;Investimentos;3;2025;166,6
+BP;1.02.02.01;Participações Societárias;4;2023;136,4
+BP;1.02.02.01;Participações Societárias;4;2024;270,6
+BP;1.02.02.01;Participações Societárias;4;2025;166,6
+BP;1.02.02.01.01;Participações em Coligadas;5;2023;136,4
+BP;1.02.02.01.01;Participações em Coligadas;5;2024;270,6
+BP;1.02.02.01.01;Participações em Coligadas;5;2025;166,6
+BP;1.02.03;Imobilizado;3;2023;8998,6
+BP;1.02.03;Imobilizado;3;2024;12669,5
+BP;1.02.03;Imobilizado;3;2025;12309,4
+BP;1.02.03.01;Imobilizado em Operação;4;2023;8572,6
+BP;1.02.03.01;Imobilizado em Operação;4;2024;12021,1
+BP;1.02.03.01;Imobilizado em Operação;4;2025;11725,3
+BP;1.02.03.02;Direito de Uso em Arrendamento;4;2023;426,0
+BP;1.02.03.02;Direito de Uso em Arrendamento;4;2024;648,4
+BP;1.02.03.02;Direito de Uso em Arrendamento;4;2025;584,1
+BP;1.02.04;Intangível;3;2023;11285,0
+BP;1.02.04;Intangível;3;2024;15498,6
+BP;1.02.04;Intangível;3;2025;14973,9
+BP;1.02.04.01;Intangíveis;4;2023;11285,0
+BP;1.02.04.01;Intangíveis;4;2024;15498,6
+BP;1.02.04.01;Intangíveis;4;2025;14973,9
+BP;2;Passivo Total;1;2023;52201,2
+BP;2;Passivo Total;1;2024;73219,7
+BP;2;Passivo Total;1;2025;71092,1
+BP;2.01;Passivo Circulante;2;2023;17746,1
+BP;2.01;Passivo Circulante;2;2024;27347,0
+BP;2.01;Passivo Circulante;2;2025;26200,9
+BP;2.01.02;Fornecedores;3;2023;3991,9
+BP;2.01.02;Fornecedores;3;2024;6251,6
+BP;2.01.02;Fornecedores;3;2025;6491,4
+BP;2.01.02.01;Fornecedores Nacionais;4;2023;542,6
+BP;2.01.02.01;Fornecedores Nacionais;4;2024;846,0
+BP;2.01.02.01;Fornecedores Nacionais;4;2025;990,0
+BP;2.01.02.01.01;Fornecedores;5;2023;453,7
+BP;2.01.02.01.01;Fornecedores;5;2024;719,8
+BP;2.01.02.01.01;Fornecedores;5;2025;808,9
+BP;2.01.02.01.02;Fornecedores - Acordos de financiamento;5;2023;88,9
+BP;2.01.02.01.02;Fornecedores - Acordos de financiamento;5;2024;126,3
+BP;2.01.02.01.02;Fornecedores - Acordos de financiamento;5;2025;181,1
+BP;2.01.02.02;Fornecedores Estrangeiros;4;2023;3449,2
+BP;2.01.02.02;Fornecedores Estrangeiros;4;2024;5405,5
+BP;2.01.02.02;Fornecedores Estrangeiros;4;2025;5501,5
+BP;2.01.02.02.01;Fornecedores;5;2023;3356,3
+BP;2.01.02.02.01;Fornecedores;5;2024;5263,8
+BP;2.01.02.02.01;Fornecedores;5;2025;5336,3
+BP;2.01.02.02.02;Fornecedores - Acordos de financiamento;5;2023;93,0
+BP;2.01.02.02.02;Fornecedores - Acordos de financiamento;5;2024;141,7
+BP;2.01.02.02.02;Fornecedores - Acordos de financiamento;5;2025;165,2
+BP;2.01.03;Obrigações Fiscais;3;2023;1153,1
+BP;2.01.03;Obrigações Fiscais;3;2024;1055,5
+BP;2.01.03;Obrigações Fiscais;3;2025;476,5
+BP;2.01.03.01;Obrigações Fiscais Federais;4;2023;1144,6
+BP;2.01.03.01;Obrigações Fiscais Federais;4;2024;1046,4
+BP;2.01.03.01;Obrigações Fiscais Federais;4;2025;471,7
+BP;2.01.03.01.01;Imposto de Renda e Contribuição Social a Pagar;5;2023;946,9
+BP;2.01.03.01.01;Imposto de Renda e Contribuição Social a Pagar;5;2024;772,0
+BP;2.01.03.01.01;Imposto de Renda e Contribuição Social a Pagar;5;2025;128,2
+BP;2.01.03.01.02;Outros;5;2023;197,7
+BP;2.01.03.01.02;Outros;5;2024;274,5
+BP;2.01.03.01.02;Outros;5;2025;343,4
+BP;2.01.03.02;Obrigações Fiscais Estaduais;4;2023;0,2
+BP;2.01.03.02;Obrigações Fiscais Estaduais;4;2024;0,0
+BP;2.01.03.02;Obrigações Fiscais Estaduais;4;2025;0,1
+BP;2.01.03.03;Obrigações Fiscais Municipais;4;2023;8,3
+BP;2.01.03.03;Obrigações Fiscais Municipais;4;2024;9,1
+BP;2.01.03.03;Obrigações Fiscais Municipais;4;2025;4,7
+BP;2.01.04;Empréstimos e Financiamentos;3;2023;615,1
+BP;2.01.04;Empréstimos e Financiamentos;3;2024;704,4
+BP;2.01.04;Empréstimos e Financiamentos;3;2025;579,6
+BP;2.01.04.01;Empréstimos e Financiamentos;4;2023;615,1
+BP;2.01.04.01;Empréstimos e Financiamentos;4;2024;704,4
+BP;2.01.04.01;Empréstimos e Financiamentos;4;2025;579,6
+BP;2.01.04.01.01;Em Moeda Nacional;5;2023;1,0
+BP;2.01.04.01.01;Em Moeda Nacional;5;2024;1,1
+BP;2.01.04.01.01;Em Moeda Nacional;5;2025;28,8
+BP;2.01.04.01.02;Em Moeda Estrangeira;5;2023;614,1
+BP;2.01.04.01.02;Em Moeda Estrangeira;5;2024;703,3
+BP;2.01.04.01.02;Em Moeda Estrangeira;5;2025;550,9
+BP;2.01.05;Outras Obrigações;3;2023;11430,4
+BP;2.01.05;Outras Obrigações;3;2024;18776,8
+BP;2.01.05;Outras Obrigações;3;2025;17951,1
+BP;2.01.05.02;Outros;4;2023;11430,4
+BP;2.01.05.02;Outros;4;2024;18776,8
+BP;2.01.05.02;Outros;4;2025;17951,1
+BP;2.01.05.02.04;Contas a Pagar;5;2023;1608,8
+BP;2.01.05.02.04;Contas a Pagar;5;2024;2227,8
+BP;2.01.05.02.04;Contas a Pagar;5;2025;3356,9
+BP;2.01.05.02.09;Instrumentos Financeiros Derivativos;5;2023;414,8
+BP;2.01.05.02.09;Instrumentos Financeiros Derivativos;5;2024;445,1
+BP;2.01.05.02.09;Instrumentos Financeiros Derivativos;5;2025;211,5
+BP;2.01.05.02.10;Receitas Diferidas;5;2023;49,8
+BP;2.01.05.02.10;Receitas Diferidas;5;2024;111,8
+BP;2.01.05.02.10;Receitas Diferidas;5;2025;163,5
+BP;2.01.05.02.12;Passivos de contrato;5;2023;9290,4
+BP;2.01.05.02.12;Passivos de contrato;5;2024;15873,3
+BP;2.01.05.02.12;Passivos de contrato;5;2025;14105,0
+BP;2.01.05.02.13;Passivo de arrendamento;5;2023;66,6
+BP;2.01.05.02.13;Passivo de arrendamento;5;2024;118,8
+BP;2.01.05.02.13;Passivo de arrendamento;5;2025;114,1
+BP;2.01.06;Provisões;3;2023;555,6
+BP;2.01.06;Provisões;3;2024;558,7
+BP;2.01.06;Provisões;3;2025;702,2
+BP;2.01.06.01;Provisões Fiscais Previdenciárias Trabalhistas e Cíveis;4;2023;40,5
+BP;2.01.06.01;Provisões Fiscais Previdenciárias Trabalhistas e Cíveis;4;2024;59,7
+BP;2.01.06.01;Provisões Fiscais Previdenciárias Trabalhistas e Cíveis;4;2025;64,6
+BP;2.01.06.01.01;Provisões Fiscais;5;2023;5,1
+BP;2.01.06.01.01;Provisões Fiscais;5;2024;13,8
+BP;2.01.06.01.01;Provisões Fiscais;5;2025;17,3
+BP;2.01.06.01.02;Provisões Previdenciárias e Trabalhistas;5;2023;35,4
+BP;2.01.06.01.02;Provisões Previdenciárias e Trabalhistas;5;2024;38,6
+BP;2.01.06.01.02;Provisões Previdenciárias e Trabalhistas;5;2025;39,6
+BP;2.01.06.01.03;Provisões para Benefícios a Empregados;5;2023;0,0
+BP;2.01.06.01.03;Provisões para Benefícios a Empregados;5;2024;7,3
+BP;2.01.06.01.03;Provisões para Benefícios a Empregados;5;2025;7,7
+BP;2.01.06.01.04;Provisões Cíveis;5;2023;0,0
+BP;2.01.06.01.04;Provisões Cíveis;5;2024;0,0
+BP;2.01.06.01.04;Provisões Cíveis;5;2025;0,0
+BP;2.01.06.02;Outras Provisões;4;2023;515,1
+BP;2.01.06.02;Outras Provisões;4;2024;499,0
+BP;2.01.06.02;Outras Provisões;4;2025;637,7
+BP;2.01.06.02.01;Provisões para Garantias;5;2023;131,3
+BP;2.01.06.02.01;Provisões para Garantias;5;2024;154,6
+BP;2.01.06.02.01;Provisões para Garantias;5;2025;100,9
+BP;2.01.06.02.04;Outras Provisões;5;2023;383,8
+BP;2.01.06.02.04;Outras Provisões;5;2024;344,4
+BP;2.01.06.02.04;Outras Provisões;5;2025;536,7
+BP;2.02;Passivo Não Circulante;2;2023;19740,9
+BP;2.02;Passivo Não Circulante;2;2024;25161,8
+BP;2.02;Passivo Não Circulante;2;2025;23916,3
+BP;2.02.01;Empréstimos e Financiamentos;3;2023;13358,4
+BP;2.02.01;Empréstimos e Financiamentos;3;2024;14721,0
+BP;2.02.01;Empréstimos e Financiamentos;3;2025;13692,8
+BP;2.02.01.01;Empréstimos e Financiamentos;4;2023;13358,4
+BP;2.02.01.01;Empréstimos e Financiamentos;4;2024;14721,0
+BP;2.02.01.01;Empréstimos e Financiamentos;4;2025;13692,8
+BP;2.02.01.01.01;Em Moeda Nacional;5;2023;83,6
+BP;2.02.01.01.01;Em Moeda Nacional;5;2024;145,5
+BP;2.02.01.01.01;Em Moeda Nacional;5;2025;401,7
+BP;2.02.01.01.02;Em Moeda Estrangeira;5;2023;13274,8
+BP;2.02.01.01.02;Em Moeda Estrangeira;5;2024;14575,5
+BP;2.02.01.01.02;Em Moeda Estrangeira;5;2025;13291,1
+BP;2.02.02;Outras Obrigações;3;2023;3981,2
+BP;2.02.02;Outras Obrigações;3;2024;6312,0
+BP;2.02.02;Outras Obrigações;3;2025;7480,6
+BP;2.02.02.02;Outros;4;2023;3981,2
+BP;2.02.02.02;Outros;4;2024;6312,0
+BP;2.02.02.02;Outros;4;2025;7480,6
+BP;2.02.02.02.03;Contas a Pagar;5;2023;268,2
+BP;2.02.02.02.03;Contas a Pagar;5;2024;998,2
+BP;2.02.02.02.03;Contas a Pagar;5;2025;1914,9
+BP;2.02.02.02.07;Impostos e Encargos Sociais a Recolher;5;2023;88,5
+BP;2.02.02.02.07;Impostos e Encargos Sociais a Recolher;5;2024;57,1
+BP;2.02.02.02.07;Impostos e Encargos Sociais a Recolher;5;2025;66,6
+BP;2.02.02.02.08;Instrumentos Financeiros Derivativos;5;2023;191,1
+BP;2.02.02.02.08;Instrumentos Financeiros Derivativos;5;2024;197,7
+BP;2.02.02.02.08;Instrumentos Financeiros Derivativos;5;2025;145,5
+BP;2.02.02.02.11;Passivos de contrato;5;2023;3010,6
+BP;2.02.02.02.11;Passivos de contrato;5;2024;4465,7
+BP;2.02.02.02.11;Passivos de contrato;5;2025;4796,6
+BP;2.02.02.02.12;Passivo de arrendamento;5;2023;397,8
+BP;2.02.02.02.12;Passivo de arrendamento;5;2024;573,4
+BP;2.02.02.02.12;Passivo de arrendamento;5;2025;535,9
+BP;2.02.02.02.13;Imposto de renda e contribuição social;5;2023;24,9
+BP;2.02.02.02.13;Imposto de renda e contribuição social;5;2024;19,9
+BP;2.02.02.02.13;Imposto de renda e contribuição social;5;2025;21,0
+BP;2.02.03;Tributos Diferidos;3;2023;1475,3
+BP;2.02.03;Tributos Diferidos;3;2024;2788,1
+BP;2.02.03;Tributos Diferidos;3;2025;1502,7
+BP;2.02.03.01;Imposto de Renda e Contribuição Social Diferidos;4;2023;1475,3
+BP;2.02.03.01;Imposto de Renda e Contribuição Social Diferidos;4;2024;2788,1
+BP;2.02.03.01;Imposto de Renda e Contribuição Social Diferidos;4;2025;1502,7
+BP;2.02.04;Provisões;3;2023;840,2
+BP;2.02.04;Provisões;3;2024;1261,2
+BP;2.02.04;Provisões;3;2025;1195,3
+BP;2.02.04.01;Provisões Fiscais Previdenciárias Trabalhistas e Cíveis;4;2023;474,3
+BP;2.02.04.01;Provisões Fiscais Previdenciárias Trabalhistas e Cíveis;4;2024;407,2
+BP;2.02.04.01;Provisões Fiscais Previdenciárias Trabalhistas e Cíveis;4;2025;408,1
+BP;2.02.04.01.01;Provisões Fiscais;5;2023;100,3
+BP;2.02.04.01.01;Provisões Fiscais;5;2024;50,6
+BP;2.02.04.01.01;Provisões Fiscais;5;2025;52,1
+BP;2.02.04.01.02;Provisões Previdenciárias e Trabalhistas;5;2023;140,7
+BP;2.02.04.01.02;Provisões Previdenciárias e Trabalhistas;5;2024;150,5
+BP;2.02.04.01.02;Provisões Previdenciárias e Trabalhistas;5;2025;146,2
+BP;2.02.04.01.03;Provisões para Benefícios a Empregados;5;2023;232,3
+BP;2.02.04.01.03;Provisões para Benefícios a Empregados;5;2024;205,3
+BP;2.02.04.01.03;Provisões para Benefícios a Empregados;5;2025;209,1
+BP;2.02.04.01.04;Provisões Cíveis;5;2023;1,0
+BP;2.02.04.01.04;Provisões Cíveis;5;2024;0,8
+BP;2.02.04.01.04;Provisões Cíveis;5;2025;0,7
+BP;2.02.04.02;Outras Provisões;4;2023;365,9
+BP;2.02.04.02;Outras Provisões;4;2024;854,0
+BP;2.02.04.02;Outras Provisões;4;2025;787,2
+BP;2.02.04.02.01;Provisões para Garantias;5;2023;223,0
+BP;2.02.04.02.01;Provisões para Garantias;5;2024;333,4
+BP;2.02.04.02.01;Provisões para Garantias;5;2025;302,8
+BP;2.02.04.02.04;Provisão materiais de terceiros;5;2023;138,3
+BP;2.02.04.02.04;Provisão materiais de terceiros;5;2024;274,6
+BP;2.02.04.02.04;Provisão materiais de terceiros;5;2025;293,9
+BP;2.02.04.02.05;Outros;5;2023;4,6
+BP;2.02.04.02.05;Outros;5;2024;246,0
+BP;2.02.04.02.05;Outros;5;2025;190,5
+BP;2.02.06;Lucros e Receitas a Apropriar;3;2023;85,9
+BP;2.02.06;Lucros e Receitas a Apropriar;3;2024;79,4
+BP;2.02.06;Lucros e Receitas a Apropriar;3;2025;44,9
+BP;2.02.06.02;Receitas a Apropriar;4;2023;85,9
+BP;2.02.06.02;Receitas a Apropriar;4;2024;79,4
+BP;2.02.06.02;Receitas a Apropriar;4;2025;44,9
+BP;2.02.06.02.01;Receitas diferidas;5;2023;85,9
+BP;2.02.06.02.01;Receitas diferidas;5;2024;79,4
+BP;2.02.06.02.01;Receitas diferidas;5;2025;44,9
+BP;2.03;Patrimônio Líquido Consolidado;2;2023;14714,2
+BP;2.03;Patrimônio Líquido Consolidado;2;2024;20710,9
+BP;2.03;Patrimônio Líquido Consolidado;2;2025;20975,0
+BP;2.03.01;Capital Social Realizado;3;2023;5159,6
+BP;2.03.01;Capital Social Realizado;3;2024;5159,6
+BP;2.03.01;Capital Social Realizado;3;2025;5159,6
+BP;2.03.02;Reservas de Capital;3;2023;474,2
+BP;2.03.02;Reservas de Capital;3;2024;751,0
+BP;2.03.02;Reservas de Capital;3;2025;529,3
+BP;2.03.02.05;Ações em Tesouraria;4;2023;-87,1
+BP;2.03.02.05;Ações em Tesouraria;4;2024;-87,1
+BP;2.03.02.05;Ações em Tesouraria;4;2025;-1087,3
+BP;2.03.02.07;Remuneração baseada em ações;4;2023;116,4
+BP;2.03.02.07;Remuneração baseada em ações;4;2024;140,0
+BP;2.03.02.07;Remuneração baseada em ações;4;2025;169,9
+BP;2.03.02.08;Resultado nas operações com acionistas não controladores;4;2023;444,9
+BP;2.03.02.08;Resultado nas operações com acionistas não controladores;4;2024;698,1
+BP;2.03.02.08;Resultado nas operações com acionistas não controladores;4;2025;1446,6
+BP;2.03.04;Reservas de Lucros;3;2023;0,0
+BP;2.03.04;Reservas de Lucros;3;2024;274,4
+BP;2.03.04;Reservas de Lucros;3;2025;1702,4
+BP;2.03.04.01;Reserva Legal;4;2023;0,0
+BP;2.03.04.01;Reserva Legal;4;2024;16,3
+BP;2.03.04.01;Reserva Legal;4;2025;113,9
+BP;2.03.04.10;Subvenção para Investimentos;4;2023;0,0
+BP;2.03.04.10;Subvenção para Investimentos;4;2024;103,8
+BP;2.03.04.10;Subvenção para Investimentos;4;2025;103,8
+BP;2.03.04.11;Reservas para Investimentos e Capital de Giro;4;2023;0,0
+BP;2.03.04.11;Reservas para Investimentos e Capital de Giro;4;2024;154,3
+BP;2.03.04.11;Reservas para Investimentos e Capital de Giro;4;2025;1484,7
+BP;2.03.05;Lucros/Prejuízos Acumulados;3;2023;-1593,1
+BP;2.03.05;Lucros/Prejuízos Acumulados;3;2024;0,0
+BP;2.03.05;Lucros/Prejuízos Acumulados;3;2025;0,0
+BP;2.03.06;Ajustes de Avaliação Patrimonial;3;2023;9449,6
+BP;2.03.06;Ajustes de Avaliação Patrimonial;3;2024;12860,3
+BP;2.03.06;Ajustes de Avaliação Patrimonial;3;2025;11562,5
+BP;2.03.06.02;Perda com benefícios pós-emprego;4;2023;-114,1
+BP;2.03.06.02;Perda com benefícios pós-emprego;4;2024;-82,5
+BP;2.03.06.02;Perda com benefícios pós-emprego;4;2025;-76,9
+BP;2.03.06.03;Ajustes acumulados de conversão;4;2023;9511,4
+BP;2.03.06.03;Ajustes acumulados de conversão;4;2024;13021,4
+BP;2.03.06.03;Ajustes acumulados de conversão;4;2025;11627,0
+BP;2.03.06.04;Instrumentos Financeiros;4;2023;52,3
+BP;2.03.06.04;Instrumentos Financeiros;4;2024;-78,7
+BP;2.03.06.04;Instrumentos Financeiros;4;2025;12,4
+BP;2.03.09;Participação dos Acionistas Não Controladores;3;2023;1223,9
+BP;2.03.09;Participação dos Acionistas Não Controladores;3;2024;1665,7
+BP;2.03.09;Participação dos Acionistas Não Controladores;3;2025;2021,1
+DFC;6.01;Caixa Líquido Atividades Operacionais;2;2023;2827,1
+DFC;6.01;Caixa Líquido Atividades Operacionais;2;2024;5532,4
+DFC;6.01;Caixa Líquido Atividades Operacionais;2;2025;4483,9
+DFC;6.01.01;Caixa Gerado nas Operações;3;2023;2310,2
+DFC;6.01.01;Caixa Gerado nas Operações;3;2024;5819,3
+DFC;6.01.01;Caixa Gerado nas Operações;3;2025;3878,7
+DFC;6.01.01.01;Lucro do exercício;4;2023;784,4
+DFC;6.01.01.01;Lucro do exercício;4;2024;1923,8
+DFC;6.01.01.01;Lucro do exercício;4;2025;1992,0
+DFC;6.01.01.02;Despesas com depreciação e amortização;4;2023;1202,1
+DFC;6.01.01.02;Despesas com depreciação e amortização;4;2024;1331,8
+DFC;6.01.01.02;Despesas com depreciação e amortização;4;2025;1441,2
+DFC;6.01.01.04;Realização contribuição de parceiros;4;2023;-147,6
+DFC;6.01.01.04;Realização contribuição de parceiros;4;2024;-168,0
+DFC;6.01.01.04;Realização contribuição de parceiros;4;2025;-152,0
+DFC;6.01.01.07;Perda (reversão) por redução ao valor recuperável dos estoques;4;2023;-24,5
+DFC;6.01.01.07;Perda (reversão) por redução ao valor recuperável dos estoques;4;2024;36,5
+DFC;6.01.01.07;Perda (reversão) por redução ao valor recuperável dos estoques;4;2025;22,8
+DFC;6.01.01.08;Ajuste valor justo - ativos financeiros;4;2023;-3,2
+DFC;6.01.01.08;Ajuste valor justo - ativos financeiros;4;2024;101,2
+DFC;6.01.01.08;Ajuste valor justo - ativos financeiros;4;2025;66,2
+DFC;6.01.01.09;Perda (reversão) de crédito esperada;4;2023;-49,0
+DFC;6.01.01.09;Perda (reversão) de crédito esperada;4;2024;121,6
+DFC;6.01.01.09;Perda (reversão) de crédito esperada;4;2025;64,4
+DFC;6.01.01.10;Perda (ganho) na alienação de ativo permanente;4;2023;-142,5
+DFC;6.01.01.10;Perda (ganho) na alienação de ativo permanente;4;2024;35,3
+DFC;6.01.01.10;Perda (ganho) na alienação de ativo permanente;4;2025;47,2
+DFC;6.01.01.11;Imposto de renda e contribuição social;4;2023;-225,5
+DFC;6.01.01.11;Imposto de renda e contribuição social;4;2024;1185,1
+DFC;6.01.01.11;Imposto de renda e contribuição social;4;2025;-536,4
+DFC;6.01.01.12;Juros sobre empréstimos;4;2023;946,9
+DFC;6.01.01.12;Juros sobre empréstimos;4;2024;938,2
+DFC;6.01.01.12;Juros sobre empréstimos;4;2025;629,0
+DFC;6.01.01.13;Juros sobre títulos e valores mobiliários;4;2023;-35,2
+DFC;6.01.01.13;Juros sobre títulos e valores mobiliários;4;2024;-98,5
+DFC;6.01.01.13;Juros sobre títulos e valores mobiliários;4;2025;-102,1
+DFC;6.01.01.14;Equivalência patrimonial;4;2023;-50,0
+DFC;6.01.01.14;Equivalência patrimonial;4;2024;23,6
+DFC;6.01.01.14;Equivalência patrimonial;4;2025;38,7
+DFC;6.01.01.15;Variação monetária e cambial;4;2023;35,4
+DFC;6.01.01.15;Variação monetária e cambial;4;2024;47,5
+DFC;6.01.01.15;Variação monetária e cambial;4;2025;204,3
+DFC;6.01.01.16;Provisões diversas;4;2023;-34,9
+DFC;6.01.01.16;Provisões diversas;4;2024;314,3
+DFC;6.01.01.16;Provisões diversas;4;2025;125,9
+DFC;6.01.01.18;Outros;4;2023;53,8
+DFC;6.01.01.18;Outros;4;2024;27,0
+DFC;6.01.01.18;Outros;4;2025;37,3
+DFC;6.01.02;Variações nos Ativos e Passivos;3;2023;516,9
+DFC;6.01.02;Variações nos Ativos e Passivos;3;2024;-286,9
+DFC;6.01.02;Variações nos Ativos e Passivos;3;2025;605,2
+DFC;6.01.02.01;Investimentos financeiros;4;2023;16,1
+DFC;6.01.02.01;Investimentos financeiros;4;2024;-649,3
+DFC;6.01.02.01;Investimentos financeiros;4;2025;516,9
+DFC;6.01.02.02;Instrumentos financeiros derivativos;4;2023;101,6
+DFC;6.01.02.02;Instrumentos financeiros derivativos;4;2024;-142,7
+DFC;6.01.02.02;Instrumentos financeiros derivativos;4;2025;-118,2
+DFC;6.01.02.03;Contas a receber;4;2023;-22,4
+DFC;6.01.02.03;Contas a receber;4;2024;-913,1
+DFC;6.01.02.03;Contas a receber;4;2025;198,4
+DFC;6.01.02.04;Financiamento a clientes;4;2023;32,9
+DFC;6.01.02.04;Financiamento a clientes;4;2024;134,4
+DFC;6.01.02.04;Financiamento a clientes;4;2025;118,6
+DFC;6.01.02.05;Ativos de contrato;4;2023;-39,9
+DFC;6.01.02.05;Ativos de contrato;4;2024;-535,0
+DFC;6.01.02.05;Ativos de contrato;4;2025;268,3
+DFC;6.01.02.06;Estoques;4;2023;-1572,5
+DFC;6.01.02.06;Estoques;4;2024;-1357,8
+DFC;6.01.02.06;Estoques;4;2025;-2433,7
+DFC;6.01.02.07;Outros ativos;4;2023;-560,2
+DFC;6.01.02.07;Outros ativos;4;2024;-245,7
+DFC;6.01.02.07;Outros ativos;4;2025;-382,8
+DFC;6.01.02.08;Fornecedores e Fornecedores - Acordos de financiamento;4;2023;253,2
+DFC;6.01.02.08;Fornecedores e Fornecedores - Acordos de financiamento;4;2024;985,6
+DFC;6.01.02.08;Fornecedores e Fornecedores - Acordos de financiamento;4;2025;994,6
+DFC;6.01.02.09;Contas a pagar;4;2023;352,4
+DFC;6.01.02.09;Contas a pagar;4;2024;92,7
+DFC;6.01.02.09;Contas a pagar;4;2025;2241,0
+DFC;6.01.02.10;Passivos de contrato;4;2023;2911,4
+DFC;6.01.02.10;Passivos de contrato;4;2024;4139,6
+DFC;6.01.02.10;Passivos de contrato;4;2025;831,0
+DFC;6.01.02.11;Impostos a recolher;4;2023;487,8
+DFC;6.01.02.11;Impostos a recolher;4;2024;-314,9
+DFC;6.01.02.11;Impostos a recolher;4;2025;-357,0
+DFC;6.01.02.13;Receitas diferidas;4;2023;13,8
+DFC;6.01.02.13;Receitas diferidas;4;2024;20,5
+DFC;6.01.02.13;Receitas diferidas;4;2025;39,2
+DFC;6.01.02.14;IR e CS pagos;4;2023;-598,2
+DFC;6.01.02.14;IR e CS pagos;4;2024;-569,3
+DFC;6.01.02.14;IR e CS pagos;4;2025;-411,2
+DFC;6.01.02.15;Juros pagos;4;2023;-859,2
+DFC;6.01.02.15;Juros pagos;4;2024;-931,5
+DFC;6.01.02.15;Juros pagos;4;2025;-899,9
+DFC;6.02;Caixa Líquido Atividades de Investimento;2;2023;-2250,0
+DFC;6.02;Caixa Líquido Atividades de Investimento;2;2024;-3214,1
+DFC;6.02;Caixa Líquido Atividades de Investimento;2;2025;-2582,4
+DFC;6.02.01;Aquisições de imobilizado;3;2023;-1187,6
+DFC;6.02.01;Aquisições de imobilizado;3;2024;-1068,6
+DFC;6.02.01;Aquisições de imobilizado;3;2025;-1044,7
+DFC;6.02.02;Baixa de imobilizado;3;2023;95,7
+DFC;6.02.02;Baixa de imobilizado;3;2024;68,9
+DFC;6.02.02;Baixa de imobilizado;3;2025;94,0
+DFC;6.02.03;Adições ao intangível;3;2023;-955,0
+DFC;6.02.03;Adições ao intangível;3;2024;-1445,2
+DFC;6.02.03;Adições ao intangível;3;2025;-1651,6
+DFC;6.02.04;Adições investimentos em subsidiárias e coligadas, líquido do caixa adquirido;3;2023;-124,3
+DFC;6.02.04;Adições investimentos em subsidiárias e coligadas, líquido do caixa adquirido;3;2024;-95,4
+DFC;6.02.04;Adições investimentos em subsidiárias e coligadas, líquido do caixa adquirido;3;2025;-66,9
+DFC;6.02.06;Aquisição de investimentos financeiros;3;2023;-594,2
+DFC;6.02.06;Aquisição de investimentos financeiros;3;2024;-1450,9
+DFC;6.02.06;Aquisição de investimentos financeiros;3;2025;-1514,9
+DFC;6.02.07;Alienação de investimentos financeiros;3;2023;579,9
+DFC;6.02.07;Alienação de investimentos financeiros;3;2024;476,8
+DFC;6.02.07;Alienação de investimentos financeiros;3;2025;2108,1
+DFC;6.02.08;Alienação de investimento;3;2023;201,9
+DFC;6.02.08;Alienação de investimento;3;2024;0,0
+DFC;6.02.08;Alienação de investimento;3;2025;0,0
+DFC;6.02.09;Recebimento (concessão) de empréstimos;3;2023;-296,5
+DFC;6.02.09;Recebimento (concessão) de empréstimos;3;2024;297,5
+DFC;6.02.09;Recebimento (concessão) de empréstimos;3;2025;-506,3
+DFC;6.02.10;Dividendos recebidos;3;2023;30,2
+DFC;6.02.10;Dividendos recebidos;3;2024;2,9
+DFC;6.02.10;Dividendos recebidos;3;2025;0,0
+DFC;6.03;Caixa Líquido Atividades de Financiamento;2;2023;-1723,1
+DFC;6.03;Caixa Líquido Atividades de Financiamento;2;2024;-1911,4
+DFC;6.03;Caixa Líquido Atividades de Financiamento;2;2025;787,5
+DFC;6.03.01;Empréstimos obtidos;3;2023;9926,1
+DFC;6.03.01;Empréstimos obtidos;3;2024;4216,5
+DFC;6.03.01;Empréstimos obtidos;3;2025;16374,0
+DFC;6.03.02;Financiamentos pagos;3;2023;-11561,3
+DFC;6.03.02;Financiamentos pagos;3;2024;-6375,6
+DFC;6.03.02;Financiamentos pagos;3;2025;-15616,7
+DFC;6.03.03;Aumento de capital;3;2023;46,9
+DFC;6.03.03;Aumento de capital;3;2024;0,0
+DFC;6.03.03;Aumento de capital;3;2025;-1000,1
+DFC;6.03.04;Dividendos e juros sobre capital próprio;3;2023;-66,6
+DFC;6.03.04;Dividendos e juros sobre capital próprio;3;2024;0,0
+DFC;6.03.04;Dividendos e juros sobre capital próprio;3;2025;-130,8
+DFC;6.03.05;Recebimento na oferta de ações de controlada;3;2023;0,0
+DFC;6.03.05;Recebimento na oferta de ações de controlada;3;2024;363,6
+DFC;6.03.05;Recebimento na oferta de ações de controlada;3;2025;1143,9
+DFC;6.03.06;Custos na oferta de ações de controlada;3;2023;0,0
+DFC;6.03.06;Custos na oferta de ações de controlada;3;2024;-13,1
+DFC;6.03.06;Custos na oferta de ações de controlada;3;2025;-68,6
+DFC;6.03.07;Pagamentos de arrendamentos;3;2023;-68,2
+DFC;6.03.07;Pagamentos de arrendamentos;3;2024;-102,7
+DFC;6.03.07;Pagamentos de arrendamentos;3;2025;-132,3
+DFC;6.03.08;Recursos provenientes de venda de recebível;3;2023;0,0
+DFC;6.03.08;Recursos provenientes de venda de recebível;3;2024;0,0
+DFC;6.03.08;Recursos provenientes de venda de recebível;3;2025;218,2
+DFC;6.04;Variação Cambial s/ Caixa e Equivalentes;2;2023;-453,8
+DFC;6.04;Variação Cambial s/ Caixa e Equivalentes;2;2024;1398,2
+DFC;6.04;Variação Cambial s/ Caixa e Equivalentes;2;2025;-1638,9
+DFC;6.05;Aumento (Redução) de Caixa e Equivalentes;2;2023;-1599,8
+DFC;6.05;Aumento (Redução) de Caixa e Equivalentes;2;2024;1805,2
+DFC;6.05;Aumento (Redução) de Caixa e Equivalentes;2;2025;1050,1
+DFC;6.05.01;Saldo Inicial de Caixa e Equivalentes;3;2023;9473,3
+DFC;6.05.01;Saldo Inicial de Caixa e Equivalentes;3;2024;7873,5
+DFC;6.05.01;Saldo Inicial de Caixa e Equivalentes;3;2025;9678,7
+DFC;6.05.02;Saldo Final de Caixa e Equivalentes;3;2023;7873,5
+DFC;6.05.02;Saldo Final de Caixa e Equivalentes;3;2024;9678,7
+DFC;6.05.02;Saldo Final de Caixa e Equivalentes;3;2025;10728,8
+DRE;3.01;Receita de Venda de Bens e/ou Serviços;2;2023;26110,5
+DRE;3.01;Receita de Venda de Bens e/ou Serviços;2;2024;35424,2
+DRE;3.01;Receita de Venda de Bens e/ou Serviços;2;2025;41883,2
+DRE;3.02;Custo dos Bens e/ou Serviços Vendidos;2;2023;-21607,1
+DRE;3.02;Custo dos Bens e/ou Serviços Vendidos;2;2024;-29041,9
+DRE;3.02;Custo dos Bens e/ou Serviços Vendidos;2;2025;-34524,9
+DRE;3.03;Resultado Bruto;2;2023;4503,4
+DRE;3.03;Resultado Bruto;2;2024;6382,2
+DRE;3.03;Resultado Bruto;2;2025;7358,3
+DRE;3.04;Despesas/Receitas Operacionais;2;2023;-2980,8
+DRE;3.04;Despesas/Receitas Operacionais;2;2024;-2610,1
+DRE;3.04;Despesas/Receitas Operacionais;2;2025;-4010,2
+DRE;3.04.01;Despesas com Vendas;3;2023;-1569,5
+DRE;3.04.01;Despesas com Vendas;3;2024;-1671,4
+DRE;3.04.01;Despesas com Vendas;3;2025;-1886,2
+DRE;3.04.02;Despesas Gerais e Administrativas;3;2023;-1022,5
+DRE;3.04.02;Despesas Gerais e Administrativas;3;2024;-1074,8
+DRE;3.04.02;Despesas Gerais e Administrativas;3;2025;-1191,0
+DRE;3.04.03;Perdas pela Não Recuperabilidade de Ativos;3;2023;49,0
+DRE;3.04.03;Perdas pela Não Recuperabilidade de Ativos;3;2024;-121,6
+DRE;3.04.03;Perdas pela Não Recuperabilidade de Ativos;3;2025;-20,9
+DRE;3.04.03.01;Reversão (perda) de crédito esperada;4;2023;49,0
+DRE;3.04.03.01;Reversão (perda) de crédito esperada;4;2024;-121,6
+DRE;3.04.03.01;Reversão (perda) de crédito esperada;4;2025;-20,9
+DRE;3.04.04;Outras Receitas Operacionais;3;2023;844,2
+DRE;3.04.04;Outras Receitas Operacionais;3;2024;1455,9
+DRE;3.04.04;Outras Receitas Operacionais;3;2025;510,4
+DRE;3.04.05;Outras Despesas Operacionais;3;2023;-1331,9
+DRE;3.04.05;Outras Despesas Operacionais;3;2024;-1174,5
+DRE;3.04.05;Outras Despesas Operacionais;3;2025;-1383,7
+DRE;3.04.05.01;Pesquisa;4;2023;-452,8
+DRE;3.04.05.01;Pesquisa;4;2024;-298,1
+DRE;3.04.05.01;Pesquisa;4;2025;-412,6
+DRE;3.04.05.02;Despesas Operacionais;4;2023;-879,1
+DRE;3.04.05.02;Despesas Operacionais;4;2024;-876,4
+DRE;3.04.05.02;Despesas Operacionais;4;2025;-971,2
+DRE;3.04.06;Resultado de Equivalência Patrimonial;3;2023;50,0
+DRE;3.04.06;Resultado de Equivalência Patrimonial;3;2024;-23,6
+DRE;3.04.06;Resultado de Equivalência Patrimonial;3;2025;-38,7
+DRE;3.05;Resultado Antes do Resultado Financeiro e dos Tributos;2;2023;1522,6
+DRE;3.05;Resultado Antes do Resultado Financeiro e dos Tributos;2;2024;3772,1
+DRE;3.05;Resultado Antes do Resultado Financeiro e dos Tributos;2;2025;3348,1
+DRE;3.06;Resultado Financeiro;2;2023;-963,7
+DRE;3.06;Resultado Financeiro;2;2024;-663,2
+DRE;3.06;Resultado Financeiro;2;2025;-1892,5
+DRE;3.06.01;Receitas Financeiras;3;2023;941,3
+DRE;3.06.01;Receitas Financeiras;3;2024;1106,5
+DRE;3.06.01;Receitas Financeiras;3;2025;1793,8
+DRE;3.06.01.01;Variações Monetárias Ativas;4;2023;105,6
+DRE;3.06.01.01;Variações Monetárias Ativas;4;2024;-542,4
+DRE;3.06.01.01;Variações Monetárias Ativas;4;2025;39,5
+DRE;3.06.01.02;Receitas Financeiras;4;2023;835,7
+DRE;3.06.01.02;Receitas Financeiras;4;2024;1648,9
+DRE;3.06.01.02;Receitas Financeiras;4;2025;1754,3
+DRE;3.06.02;Despesas Financeiras;3;2023;-1905,1
+DRE;3.06.02;Despesas Financeiras;3;2024;-1769,7
+DRE;3.06.02;Despesas Financeiras;3;2025;-3686,3
+DRE;3.06.02.01;Variações Monetárias Passivas;4;2023;-140,9
+DRE;3.06.02.01;Variações Monetárias Passivas;4;2024;494,9
+DRE;3.06.02.01;Variações Monetárias Passivas;4;2025;-243,8
+DRE;3.06.02.02;Despesas Financeiras;4;2023;-1797,5
+DRE;3.06.02.02;Despesas Financeiras;4;2024;-2280,2
+DRE;3.06.02.02;Despesas Financeiras;4;2025;-3417,0
+DRE;3.06.02.03;Instrumentos financeiros derivativos;4;2023;33,4
+DRE;3.06.02.03;Instrumentos financeiros derivativos;4;2024;15,5
+DRE;3.06.02.03;Instrumentos financeiros derivativos;4;2025;-25,5
+DRE;3.07;Resultado Antes dos Tributos sobre o Lucro;2;2023;558,9
+DRE;3.07;Resultado Antes dos Tributos sobre o Lucro;2;2024;3108,9
+DRE;3.07;Resultado Antes dos Tributos sobre o Lucro;2;2025;1455,6
+DRE;3.08;Imposto de Renda e Contribuição Social sobre o Lucro;2;2023;225,5
+DRE;3.08;Imposto de Renda e Contribuição Social sobre o Lucro;2;2024;-1185,1
+DRE;3.08;Imposto de Renda e Contribuição Social sobre o Lucro;2;2025;536,4
+DRE;3.08.01;Corrente;3;2023;-537,8
+DRE;3.08.01;Corrente;3;2024;-507,0
+DRE;3.08.01;Corrente;3;2025;536,4
+DRE;3.08.02;Diferido;3;2023;763,3
+DRE;3.08.02;Diferido;3;2024;-678,1
+DRE;3.08.02;Diferido;3;2025;0,0
+DRE;3.09;Resultado Líquido das Operações Continuadas;2;2023;784,4
+DRE;3.09;Resultado Líquido das Operações Continuadas;2;2024;1923,8
+DRE;3.09;Resultado Líquido das Operações Continuadas;2;2025;1992,0
+DRE;3.11;Lucro/Prejuízo Consolidado do Período;2;2023;784,4
+DRE;3.11;Lucro/Prejuízo Consolidado do Período;2;2024;1923,8
+DRE;3.11;Lucro/Prejuízo Consolidado do Período;2;2025;1992,0

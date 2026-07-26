@@ -1,0 +1,125 @@
+﻿codigo;descricao;nivel;2025;2024;2023
+1;Ativo Total;1;71092,1;73219,7;52201,2
+1.01;Ativo Circulante;2;39342,8;40326,9;29316,1
+1.01.01;Caixa e Equivalentes de Caixa;3;10728,8;9678,7;7887,3
+1.01.02;Aplicações Financeiras;3;3720,2;3961,5;2525,8
+1.01.02.01;Aplicações Financeiras Avaliadas a Valor Justo através do Resultado;4;1275,2;844,9;820,6
+1.01.02.01.02;Títulos Designados a Valor Justo;5;1275,2;844,9;820,6
+1.01.02.02;Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes;4;179,2;209,1;1696,9
+1.01.02.03;Aplicações Financeiras Avaliadas ao Custo Amortizado;4;2265,8;2907,4;8,2
+1.01.03;Contas a Receber;3;1594,7;2061,9;1094,0
+1.01.03.01;Clientes;4;1594,7;2061,9;1094,0
+1.01.03.01.01;Contas a receber;5;1592,5;1986,2;1053,6
+1.01.03.01.02;Financiamento a clientes;5;2,3;75,7;40,4
+1.01.04;Estoques;3;17976,7;18181,1;12761,7
+1.01.06;Tributos a Recuperar;3;1008,2;1421,9;1335,8
+1.01.06.01;Tributos Correntes a Recuperar;4;1008,2;1421,9;1335,8
+1.01.07;Despesas Antecipadas;3;513,7;363,7;241,2
+1.01.08;Outros Ativos Circulantes;3;3800,5;4658,1;3470,3
+1.01.08.03;Outros;4;3800,5;4658,1;3470,3
+1.01.08.03.01;Outros ativos;5;945,9;720,5;920,9
+1.01.08.03.02;Instrumentos financeiros derivativos;5;47,6;81,8;84,8
+1.01.08.03.04;Ativos de contrato;5;2807,0;3855,8;2464,6
+1.02;Ativo Não Circulante;2;31749,3;32892,8;22885,1
+1.02.01;Ativo Realizável a Longo Prazo;3;4299,4;4454,0;2465,1
+1.02.01.01;Aplicações Financeiras Avaliadas a Valor Justo através do Resultado;4;581,0;848,9;0,0
+1.02.01.01.01;Títulos Designados a Valor Justo;5;581,0;848,9;0,0
+1.02.01.02;Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes;4;417,3;430,2;0,0
+1.02.01.03;Aplicações Financeiras Avaliadas ao Custo Amortizado;4;590,5;877,5;823,3
+1.02.01.04;Contas a Receber;4;51,3;137,3;279,5
+1.02.01.04.01;Clientes;5;9,4;12,5;16,3
+1.02.01.04.03;Financiamento a clientes;5;41,9;124,8;263,2
+1.02.01.07;Tributos Diferidos;4;649,9;1077,6;666,6
+1.02.01.07.01;Imposto de Renda e Contribuição Social Diferidos;5;649,9;1077,6;666,6
+1.02.01.08;Despesas Antecipadas;4;88,4;110,5;81,0
+1.02.01.10;Outros Ativos Não Circulantes;4;1920,8;972,0;614,7
+1.02.01.10.03;Tributos a recuperar;5;293,4;376,2;245,5
+1.02.01.10.04;Outros ativos;5;1341,7;587,4;357,7
+1.02.01.10.07;Ativos de contrato;5;285,7;8,5;11,5
+1.02.02;Investimentos;3;166,6;270,6;136,4
+1.02.02.01;Participações Societárias;4;166,6;270,6;136,4
+1.02.02.01.01;Participações em Coligadas;5;166,6;270,6;136,4
+1.02.03;Imobilizado;3;12309,4;12669,5;8998,6
+1.02.03.01;Imobilizado em Operação;4;11725,3;12021,1;8572,6
+1.02.03.02;Direito de Uso em Arrendamento;4;584,1;648,4;426,0
+1.02.04;Intangível;3;14973,9;15498,6;11285,0
+1.02.04.01;Intangíveis;4;14973,9;15498,6;11285,0
+2;Passivo Total;1;71092,1;73219,7;52201,2
+2.01;Passivo Circulante;2;26200,9;27347,0;17746,1
+2.01.02;Fornecedores;3;6491,4;6251,6;3991,9
+2.01.02.01;Fornecedores Nacionais;4;990,0;846,0;542,6
+2.01.02.01.01;Fornecedores;5;808,9;719,8;453,7
+2.01.02.01.02;Fornecedores - Acordos de financiamento;5;181,1;126,3;88,9
+2.01.02.02;Fornecedores Estrangeiros;4;5501,5;5405,5;3449,2
+2.01.02.02.01;Fornecedores;5;5336,3;5263,8;3356,3
+2.01.02.02.02;Fornecedores - Acordos de financiamento;5;165,2;141,7;93,0
+2.01.03;Obrigações Fiscais;3;476,5;1055,5;1153,1
+2.01.03.01;Obrigações Fiscais Federais;4;471,7;1046,4;1144,6
+2.01.03.01.01;Imposto de Renda e Contribuição Social a Pagar;5;128,2;772,0;946,9
+2.01.03.01.02;Outros;5;343,4;274,5;197,7
+2.01.03.02;Obrigações Fiscais Estaduais;4;0,1;0,0;0,2
+2.01.03.03;Obrigações Fiscais Municipais;4;4,7;9,1;8,3
+2.01.04;Empréstimos e Financiamentos;3;579,6;704,4;615,1
+2.01.04.01;Empréstimos e Financiamentos;4;579,6;704,4;615,1
+2.01.04.01.01;Em Moeda Nacional;5;28,8;1,1;1,0
+2.01.04.01.02;Em Moeda Estrangeira;5;550,9;703,3;614,1
+2.01.05;Outras Obrigações;3;17951,1;18776,8;11430,4
+2.01.05.02;Outros;4;17951,1;18776,8;11430,4
+2.01.05.02.04;Contas a Pagar;5;3356,9;2227,8;1608,8
+2.01.05.02.09;Instrumentos Financeiros Derivativos;5;211,5;445,1;414,8
+2.01.05.02.10;Receitas Diferidas;5;163,5;111,8;49,8
+2.01.05.02.12;Passivos de contrato;5;14105,0;15873,3;9290,4
+2.01.05.02.13;Passivo de arrendamento;5;114,1;118,8;66,6
+2.01.06;Provisões;3;702,2;558,7;555,6
+2.01.06.01;Provisões Fiscais Previdenciárias Trabalhistas e Cíveis;4;64,6;59,7;40,5
+2.01.06.01.01;Provisões Fiscais;5;17,3;13,8;5,1
+2.01.06.01.02;Provisões Previdenciárias e Trabalhistas;5;39,6;38,6;35,4
+2.01.06.01.03;Provisões para Benefícios a Empregados;5;7,7;7,3;0,0
+2.01.06.01.04;Provisões Cíveis;5;0,0;0,0;0,0
+2.01.06.02;Outras Provisões;4;637,7;499,0;515,1
+2.01.06.02.01;Provisões para Garantias;5;100,9;154,6;131,3
+2.01.06.02.04;Outras Provisões;5;536,7;344,4;383,8
+2.02;Passivo Não Circulante;2;23916,3;25161,8;19740,9
+2.02.01;Empréstimos e Financiamentos;3;13692,8;14721,0;13358,4
+2.02.01.01;Empréstimos e Financiamentos;4;13692,8;14721,0;13358,4
+2.02.01.01.01;Em Moeda Nacional;5;401,7;145,5;83,6
+2.02.01.01.02;Em Moeda Estrangeira;5;13291,1;14575,5;13274,8
+2.02.02;Outras Obrigações;3;7480,6;6312,0;3981,2
+2.02.02.02;Outros;4;7480,6;6312,0;3981,2
+2.02.02.02.03;Contas a Pagar;5;1914,9;998,2;268,2
+2.02.02.02.07;Impostos e Encargos Sociais a Recolher;5;66,6;57,1;88,5
+2.02.02.02.08;Instrumentos Financeiros Derivativos;5;145,5;197,7;191,1
+2.02.02.02.11;Passivos de contrato;5;4796,6;4465,7;3010,6
+2.02.02.02.12;Passivo de arrendamento;5;535,9;573,4;397,8
+2.02.02.02.13;Imposto de renda e contribuição social;5;21,0;19,9;24,9
+2.02.03;Tributos Diferidos;3;1502,7;2788,1;1475,3
+2.02.03.01;Imposto de Renda e Contribuição Social Diferidos;4;1502,7;2788,1;1475,3
+2.02.04;Provisões;3;1195,3;1261,2;840,2
+2.02.04.01;Provisões Fiscais Previdenciárias Trabalhistas e Cíveis;4;408,1;407,2;474,3
+2.02.04.01.01;Provisões Fiscais;5;52,1;50,6;100,3
+2.02.04.01.02;Provisões Previdenciárias e Trabalhistas;5;146,2;150,5;140,7
+2.02.04.01.03;Provisões para Benefícios a Empregados;5;209,1;205,3;232,3
+2.02.04.01.04;Provisões Cíveis;5;0,7;0,8;1,0
+2.02.04.02;Outras Provisões;4;787,2;854,0;365,9
+2.02.04.02.01;Provisões para Garantias;5;302,8;333,4;223,0
+2.02.04.02.04;Provisão materiais de terceiros;5;293,9;274,6;138,3
+2.02.04.02.05;Outros;5;190,5;246,0;4,6
+2.02.06;Lucros e Receitas a Apropriar;3;44,9;79,4;85,9
+2.02.06.02;Receitas a Apropriar;4;44,9;79,4;85,9
+2.02.06.02.01;Receitas diferidas;5;44,9;79,4;85,9
+2.03;Patrimônio Líquido Consolidado;2;20975,0;20710,9;14714,2
+2.03.01;Capital Social Realizado;3;5159,6;5159,6;5159,6
+2.03.02;Reservas de Capital;3;529,3;751,0;474,2
+2.03.02.05;Ações em Tesouraria;4;-1087,3;-87,1;-87,1
+2.03.02.07;Remuneração baseada em ações;4;169,9;140,0;116,4
+2.03.02.08;Resultado nas operações com acionistas não controladores;4;1446,6;698,1;444,9
+2.03.04;Reservas de Lucros;3;1702,4;274,4;0,0
+2.03.04.01;Reserva Legal;4;113,9;16,3;0,0
+2.03.04.10;Subvenção para Investimentos;4;103,8;103,8;0,0
+2.03.04.11;Reservas para Investimentos e Capital de Giro;4;1484,7;154,3;0,0
+2.03.05;Lucros/Prejuízos Acumulados;3;0,0;0,0;-1593,1
+2.03.06;Ajustes de Avaliação Patrimonial;3;11562,5;12860,3;9449,6
+2.03.06.02;Perda com benefícios pós-emprego;4;-76,9;-82,5;-114,1
+2.03.06.03;Ajustes acumulados de conversão;4;11627,0;13021,4;9511,4
+2.03.06.04;Instrumentos Financeiros;4;12,4;-78,7;52,3
+2.03.09;Participação dos Acionistas Não Controladores;3;2021,1;1665,7;1223,9
