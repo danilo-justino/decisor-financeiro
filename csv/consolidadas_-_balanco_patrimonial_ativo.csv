@@ -1,0 +1,46 @@
+﻿Codigo da Conta;Descricao da Conta;Último Exercício 31/12/2025;Penúltimo Exercício 31/12/2024;Antepenúltimo Exercício 31/12/2023
+1;Ativo Total;71.092.088;73.219.718;52.201.228
+1.01;Ativo Circulante;39.342.786;40.326.906;29.316.115
+1.01.01;Caixa e Equivalentes de Caixa;10.728.816;9.678.721;7.887.311
+1.01.02;Aplicações Financeiras;3.720.176;3.961.465;2.525.758
+1.01.02.01;Aplicações Financeiras Avaliadas a Valor Justo através do Resultado;1.275.192;844.940;820.645
+1.01.02.01.02;Títulos Designados a Valor Justo;1.275.192;844.940;820.645
+1.01.02.02;Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes;179.172;209.121;1.696.928
+1.01.02.03;Aplicações Financeiras Avaliadas ao Custo Amortizado;2.265.812;2.907.404;8.185
+1.01.03;Contas a Receber;1.594.713;2.061.890;1.094.033
+1.01.03.01;Clientes;1.594.713;2.061.890;1.094.033
+1.01.03.01.01;Contas a receber;1.592.454;1.986.223;1.053.609
+1.01.03.01.02;Financiamento a clientes;2.259;75.667;40.424
+1.01.04;Estoques;17.976.662;18.181.138;12.761.730
+1.01.06;Tributos a Recuperar;1.008.218;1.421.883;1.335.841
+1.01.06.01;Tributos Correntes a Recuperar;1.008.218;1.421.883;1.335.841
+1.01.07;Despesas Antecipadas;513.675;363.721;241.182
+1.01.08;Outros Ativos Circulantes;3.800.526;4.658.088;3.470.260
+1.01.08.03;Outros;3.800.526;4.658.088;3.470.260
+1.01.08.03.01;Outros ativos;945.928;720.543;920.858
+1.01.08.03.02;Instrumentos financeiros derivativos;47.614;81.775;84.840
+1.01.08.03.04;Ativos de contrato;2.806.984;3.855.770;2.464.562
+1.02;Ativo Não Circulante;31.749.302;32.892.812;22.885.113
+1.02.01;Ativo Realizável a Longo Prazo;4.299.361;4.454.043;2.465.075
+1.02.01.01;Aplicações Financeiras Avaliadas a Valor Justo através do Resultado;581.011;848.930;0
+1.02.01.01.01;Títulos Designados a Valor Justo;581.011;848.930;0
+1.02.01.02;Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes;417.297;430.227;0
+1.02.01.03;Aplicações Financeiras Avaliadas ao Custo Amortizado;590.536;877.541;823.251
+1.02.01.04;Contas a Receber;51.312;137.253;279.544
+1.02.01.04.01;Clientes;9.434;12.480;16.346
+1.02.01.04.03;Financiamento a clientes;41.878;124.773;263.198
+1.02.01.07;Tributos Diferidos;649.930;1.077.573;666.571
+1.02.01.07.01;Imposto de Renda e Contribuição Social Diferidos;649.930;1.077.573;666.571
+1.02.01.08;Despesas Antecipadas;88.443;110.495;80.988
+1.02.01.10;Outros Ativos Não Circulantes;1.920.832;972.024;614.721
+1.02.01.10.03;Tributos a recuperar;293.422;376.177;245.505
+1.02.01.10.04;Outros ativos;1.341.663;587.356;357.676
+1.02.01.10.07;Ativos de contrato;285.747;8.491;11.540
+1.02.02;Investimentos;166.600;270.608;136.440
+1.02.02.01;Participações Societárias;166.600;270.608;136.440
+1.02.02.01.01;Participações em Coligadas;166.600;270.608;136.440
+1.02.03;Imobilizado;12.309.396;12.669.526;8.998.618
+1.02.03.01;Imobilizado em Operação;11.725.265;12.021.105;8.572.641
+1.02.03.02;Direito de Uso em Arrendamento;584.131;648.421;425.977
+1.02.04;Intangível;14.973.945;15.498.635;11.284.980
+1.02.04.01;Intangíveis;14.973.945;15.498.635;11.284.980

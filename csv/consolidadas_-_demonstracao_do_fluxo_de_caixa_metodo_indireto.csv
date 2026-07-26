@@ -1,0 +1,55 @@
+﻿Codigo da Conta;Descricao da Conta;Último Exercício 01/01/2025 à 31/12/2025;Penúltimo Exercício 01/01/2024 à 31/12/2024;Antepenúltimo Exercício 01/01/2023 à 31/12/2023
+6.01;Caixa Líquido Atividades Operacionais;4.483.900;5.532.441;2.827.132
+6.01.01;Caixa Gerado nas Operações;3.878.680;5.819.306;2.310.190
+6.01.01.01;Lucro do exercício;1.992.037;1.923.831;784.355
+6.01.01.02;Despesas com depreciação e amortização;1.441.157;1.331.819;1.202.053
+6.01.01.04;Realização contribuição de parceiros;-151.979;-168.010;-147.596
+6.01.01.07;Perda (reversão) por redução ao valor recuperável dos estoques;22.826;36.457;-24.462
+6.01.01.08;Ajuste valor justo - ativos financeiros;66.240;101.230;-3.211
+6.01.01.09;Perda (reversão) de crédito esperada;64.395;121.576;-48.999
+6.01.01.10;Perda (ganho) na alienação de ativo permanente;47.229;35.263;-142.485
+6.01.01.11;Imposto de renda e contribuição social;-536.394;1.185.100;-225.494
+6.01.01.12;Juros sobre empréstimos;628.952;938.171;946.910
+6.01.01.13;Juros sobre títulos e valores mobiliários;-102.057;-98.541;-35.215
+6.01.01.14;Equivalência patrimonial;38.723;23.635;-49.981
+6.01.01.15;Variação monetária e cambial;204.298;47.455;35.371
+6.01.01.16;Provisões diversas;125.931;314.349;-34.868
+6.01.01.18;Outros;37.322;26.971;53.812
+6.01.02;Variações nos Ativos e Passivos;605.220;-286.865;516.942
+6.01.02.01;Investimentos financeiros;516.851;-649.344;16.067
+6.01.02.02;Instrumentos financeiros derivativos;-118.163;-142.693;101.617
+6.01.02.03;Contas a receber;198.407;-913.134;-22.420
+6.01.02.04;Financiamento a clientes;118.614;134.368;32.889
+6.01.02.05;Ativos de contrato;268.320;-535.042;-39.884
+6.01.02.06;Estoques;-2.433.704;-1.357.756;-1.572.458
+6.01.02.07;Outros ativos;-382.767;-245.720;-560.199
+6.01.02.08;Fornecedores e Fornecedores - Acordos de financiamento;994.610;985.592;253.197
+6.01.02.09;Contas a pagar;2.240.977;92.662;352.433
+6.01.02.10;Passivos de contrato;831.043;4.139.550;2.911.413
+6.01.02.11;Impostos a recolher;-357.006;-314.941;487.847
+6.01.02.13;Receitas diferidas;39.178;20.463;13.801
+6.01.02.14;IR e CS pagos;-411.199;-569.343;-598.205
+6.01.02.15;Juros pagos;-899.941;-931.527;-859.156
+6.02;Caixa Líquido Atividades de Investimento;-2.582.411;-3.214.108;-2.249.964
+6.02.01;Aquisições de imobilizado;-1.044.702;-1.068.625;-1.187.613
+6.02.02;Baixa de imobilizado;93.990;68.873;95.682
+6.02.03;Adições ao intangível;-1.651.642;-1.445.222;-954.989
+6.02.04;Adições investimentos em subsidiárias e coligadas, líquido do caixa adquirido;-66.860;-95.405;-124.305
+6.02.06;Aquisição de investimentos financeiros;-1.514.945;-1.450.874;-594.173
+6.02.07;Alienação de investimentos financeiros;2.108.071;476.791;579.904
+6.02.08;Alienação de investimento;0;0;201.865
+6.02.09;Recebimento (concessão) de empréstimos;-506.323;297.483;-296.510
+6.02.10;Dividendos recebidos;0;2.871;30.175
+6.03;Caixa Líquido Atividades de Financiamento;787.541;-1.911.350;-1.723.124
+6.03.01;Empréstimos obtidos;16.373.993;4.216.459;9.926.131
+6.03.02;Financiamentos pagos;-15.616.727;-6.375.637;-11.561.264
+6.03.03;Aumento de capital;-1.000.149;0;46.902
+6.03.04;Dividendos e juros sobre capital próprio;-130.811;0;-66.646
+6.03.05;Recebimento na oferta de ações de controlada;1.143.853;363.608;0
+6.03.06;Custos na oferta de ações de controlada;-68.567;-13.061;0
+6.03.07;Pagamentos de arrendamentos;-132.300;-102.719;-68.247
+6.03.08;Recursos provenientes de venda de recebível;218.249;0;0
+6.04;Variação Cambial s/ Caixa e Equivalentes;-1.638.935;1.398.210;-453.811
+6.05;Aumento (Redução) de Caixa e Equivalentes;1.050.095;1.805.193;-1.599.767
+6.05.01;Saldo Inicial de Caixa e Equivalentes;9.678.721;7.873.528;9.473.295
+6.05.02;Saldo Final de Caixa e Equivalentes;10.728.816;9.678.721;7.873.528
