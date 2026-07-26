@@ -26,8 +26,8 @@ from pathlib import Path
 import pandas as pd
 
 # ==== AJUSTE AQUI ====
-PASTA_CSV = r"Caminho pasta\embraer\csv"
-PASTA_TRATADOS = r"Caminho Pasta\embraer\csv_tratados"
+PASTA_CSV = r"Caminho_Pasta\embraer\csv"
+PASTA_TRATADOS = r"Caminho_Pasta\embraer\csv_tratados"
 FORMATO_ANO = "%Y"   # "%Y" -> "2025"  |  "%m/%Y" -> "12/2025"
 ESCALA = 1000        # divide por 1.000: R$ mil -> R$ milhões
 # =====================
