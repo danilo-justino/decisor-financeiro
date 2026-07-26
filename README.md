@@ -1,121 +1,271 @@
 # decisor-financeiro
 Motor de análise financeira: extração de DFPs (CVM) em PDF → tratamento em pandas → dashboard Streamlit
 
-# 📊 Decisor Financeiro — Análise de Demonstrações Financeiras (DFP/CVM)
+# 📊 Decisor Financeiro
 
-Pipeline completo de análise financeira: extrai demonstrativos de PDFs padronizados
-da CVM (DFP), trata os dados com pandas e disponibiliza um dashboard interativo em
-Streamlit com indicadores de liquidez, endividamento, rentabilidade, eficiência,
-fluxo de caixa e criação de valor.
+Pipeline de análise financeira que automatiza a extração de Demonstrações Financeiras Padronizadas (DFPs) da CVM em PDF, realiza o tratamento dos dados com Pandas e disponibiliza um dashboard interativo em Streamlit para análise de liquidez, rentabilidade, endividamento, eficiência operacional, fluxo de caixa e criação de valor.
 
-**Estudo de caso:** Embraer S.A. — DFP 31/12/2025 (consolidado, exercícios 2023–2025).
+> **Estudo de caso:** Embraer S.A. — DFP Consolidada (31/12/2025), utilizando os exercícios de 2023, 2024 e 2025.
+
+---
+
+## 📷 Dashboard
+
+> *(<img width="1902" height="911" alt="image" src="https://github.com/user-attachments/assets/f7b743d6-bac0-4e95-a3f7-f95b145e426d" />
+<img width="1477" height="817" alt="image" src="https://github.com/user-attachments/assets/79484834-e261-4f9a-83af-7397da5cbfb1" />
+<img width="1550" height="891" alt="image" src="https://github.com/user-attachments/assets/c1f2791c-28e6-4c73-b48a-c8c156872265" />
+)*
+
+```text
+assets/
+└── dashboard.png
+```
+
+Depois basta inserir:
+
+```markdown
+![Dashboard](assets/dashboard.png)
+```
+
+---
+
+## 🚀 Tecnologias
+
+- Python
+- Pandas
+- Streamlit
+- Plotly
+- pdfplumber
+- Regex
+- NumPy
 
 ---
 
 ## 🎯 Contexto de Negócio
 
-Analistas e gestores financeiros frequentemente recebem demonstrações financeiras
-em PDF — formato ótimo para leitura, péssimo para análise. Transformar essas
-informações em indicadores acionáveis costuma envolver digitação manual em
-planilhas: processo lento, sujeito a erro e não reproduzível.
+Analistas financeiros frequentemente recebem demonstrações financeiras em PDF — formato excelente para leitura, mas inadequado para análises quantitativas.
 
-Este projeto resolve esse problema com um pipeline automatizado que responde
-perguntas como:
+Transformar essas informações em indicadores normalmente exige copiar dados manualmente para planilhas, tornando o processo lento, sujeito a erros e pouco reproduzível.
 
-- A empresa está **criando ou destruindo valor**? (ROIC vs WACC, EVA)
-- A operação **gera caixa** compatível com o lucro reportado? (FCO/EBITDA, FCL)
-- Qual a **saúde financeira de curto prazo**? (liquidez, capital de giro, ciclo de caixa)
-- O **endividamento** é sustentável? (Dívida Líquida/EBITDA, cobertura de juros)
-- De onde vem a rentabilidade? (decomposição DuPont: margem × giro × alavancagem)
+Este projeto automatiza todo esse fluxo, permitindo responder perguntas como:
 
-## 🏗️ Arquitetura do Pipeline
+- A empresa está criando ou destruindo valor? *(ROIC × WACC, EVA)*
+- O lucro é convertido em caixa? *(FCO, FCL e Conversão de Caixa)*
+- Como está a liquidez de curto prazo?
+- O nível de endividamento é sustentável?
+- A rentabilidade decorre de margem, eficiência ou alavancagem? *(DuPont)*
+
+---
+
+# 🏗 Arquitetura do Pipeline
 
 ```text
-PDF (DFP/CVM) csv/ (brutos) csv_tratados/
-┌────────────────┐ pdfplumber ┌──────────────────┐ pandas
-│ embj.pdf │ ─────────► │ BP,DRE, DFC │ ─────────► │ base longa (tidy) │
-└────────────────┘ etapa 1 └──────────────────┘ etapa 2
+PDF (DFP/CVM)                     CSV Bruto                   CSV Tratado
 
-streamlit
-▼ etapa 3
-
+┌──────────────┐
+│ embj.pdf     │
+└──────┬───────┘
+       │
+       │ pdfplumber
+       ▼
+┌─────────────────────┐
+│ BP • DRE • DFC      │
+└──────┬──────────────┘
+       │
+       │ pandas
+       ▼
+┌─────────────────────┐
+│ Base Longa (Tidy)   │
+└──────┬──────────────┘
+       │
+       │ Streamlit
+       ▼
 ┌─────────────────────┐
 │ Dashboard           │
 └─────────────────────┘
 ```
 
-### Etapa 1 — Extração (`extrair_demonstrativos.py`)
-- Lê o PDF com **pdfplumber** e identifica cada demonstrativo pelo título das páginas
-- Captura código da conta, descrição e valores dos 3 exercícios via regex
-- **Unifica o Balanço Patrimonial** (Ativo + Passivo/PL — afinal, Ativo = Passivo + PL)
-- Gera um CSV bruto por demonstrativo
+---
 
-### Etapa 2 — Tratamento (`tratar_dados.py`)
-- Renomeia colunas de período para o ano: `Último Exercício 31/12/2025` → `2025`
-- Converte valores do padrão BR (`1.234.567`) para numérico
-- Reduz a escala: R$ mil → **R$ milhões**
-- Adiciona a coluna `nivel` (profundidade no plano de contas CVM)
-- **Pivot para formato longo (tidy)**: `demonstrativo | codigo | descricao | nivel | ano | valor`
-  — estrutura que permite filtros dinâmicos e escala para novas empresas/anos
+# ⚙ Pipeline
 
-### Etapa 3 — Dashboard (`desenvolvimento.py`)
-Aplicação **Streamlit** com 8 páginas:
+## Etapa 1 — Extração (`extrair_demonstrativos.py`)
+
+- Leitura dos PDFs utilizando **pdfplumber**
+- Identificação automática dos demonstrativos
+- Extração de:
+  - Código da conta
+  - Descrição
+  - Valores dos três exercícios
+- Unificação do Ativo e Passivo/Patrimônio Líquido em um único Balanço Patrimonial
+- Geração dos CSVs brutos
+
+---
+
+## Etapa 2 — Tratamento (`tratar_dados.py`)
+
+- Padronização dos nomes dos períodos
+- Conversão do padrão brasileiro de números para formato numérico
+- Conversão de R$ mil para R$ milhões
+- Inclusão do nível hierárquico das contas
+- Transformação para formato **Long (Tidy Data)**
+
+Estrutura final:
+
+| Demonstrativo | Código | Descrição | Nível | Ano | Valor |
+|--------------|---------|-----------|-------|-----|-------|
+
+Esse formato facilita filtros, agregações e visualizações dinâmicas.
+
+---
+
+## Etapa 3 — Dashboard (`desenvolvimento.py`)
+
+Aplicação desenvolvida em **Streamlit** contendo oito módulos analíticos.
 
 | Página | Conteúdo |
-|---|---|
-| 🏠 Home | Resumo executivo com cards (ano de referência selecionável) |
-| 📋 Estrutura das DFs | Esqueleto das DFs com **Análise Vertical e Horizontal** (AV/AH), filtro de anos e nível de detalhe |
-| 💧 Liquidez | Corrente, Seca, Imediata, Geral, CCL |
-| 🏦 Endividamento | Dívida bruta/líquida, DL/EBITDA, cobertura de juros, debt-to-equity |
-| 📈 Rentabilidade | ROE, ROA, ROI, ROIC, margens e decomposição **DuPont** |
-| ⚙️ Eficiência | DSO, DIO, DPO, ciclo operacional e de conversão de caixa |
-| 💵 Fluxo de Caixa | FCO/FCI/FCF, FCL, conversão de caixa, CAPEX |
-| 🚀 Crescimento e Valor | Crescimento YoY, CAGR, NOPAT, **spread ROIC−WACC e EVA** |
+|---------|----------|
+| 🏠 Home | Resumo executivo |
+| 📋 Estrutura das DFs | AV/AH e detalhamento das contas |
+| 💧 Liquidez | Liquidez Corrente, Seca, Geral, Imediata e Capital de Giro |
+| 🏦 Endividamento | Dívida Bruta, Dívida Líquida, Cobertura de Juros, DL/EBITDA |
+| 📈 Rentabilidade | ROE, ROA, ROIC, ROI, Margens e DuPont |
+| ⚙ Eficiência | DSO, DIO, DPO e Ciclo de Caixa |
+| 💵 Fluxo de Caixa | FCO, FCI, FCF, FCL e Conversão de Caixa |
+| 🚀 Crescimento e Valor | CAGR, NOPAT, EVA e Spread ROIC − WACC |
 
-Recursos: filtro de ano por página, WACC ajustável na sidebar (recalcula EVA em
-tempo real), deltas com semântica de negócio (ex.: ciclo de caixa caindo = verde).
+### Recursos do Dashboard
 
-## 🚀 Como Executar
+- Seleção dinâmica do ano
+- WACC ajustável
+- Recalculo automático do EVA
+- Indicadores com semântica financeira
+- Gráficos interativos
+- Navegação por páginas
+
+---
+
+# 📈 Resultados
+
+O pipeline automatiza completamente a transformação de DFPs da CVM em indicadores financeiros.
+
+O projeto calcula, entre outros:
+
+- Liquidez
+- Capital de Giro
+- Endividamento
+- Cobertura de Juros
+- ROE
+- ROA
+- ROIC
+- ROI
+- DuPont
+- Fluxo de Caixa Livre
+- Conversão de Caixa
+- EVA
+- NOPAT
+- CAGR
+- Crescimento YoY
+
+---
+
+# 📐 Premissas Financeiras
+
+- NOPAT calculado utilizando alíquota estatutária de **34%**
+- WACC padrão de **12%**, ajustável no dashboard
+- Indicadores de retorno utilizam média dos saldos patrimoniais
+- Prazos calculados com base de **360 dias**
+- Plano de contas padronizado da CVM
+
+---
+
+# 🔍 Insights do Caso Embraer (2023–2025)
+
+- Receita cresceu aproximadamente **18%** em 2025.
+- EBITDA apresentou retração de aproximadamente **6%**, indicando perda de margem operacional.
+- Cobertura de juros caiu de **2,1x para 0,9x**.
+- Empresa encerrou o período com posição de caixa líquido.
+- Ciclo de Conversão de Caixa reduziu de **161 para 138 dias**.
+- ROIC permaneceu abaixo do WACC, indicando destruição econômica de valor.
+
+---
+
+# 🚀 Como Executar
+
+Clone o projeto:
 
 ```bash
-# 1. Clone e instale
 git clone https://github.com/danilo-justino/decisor-financeiro.git
+
 cd decisor-financeiro
-pip install -r requirements.txt
-
-# 2. Ajuste os caminhos no topo de cada script (PDF_PATH, PASTA_CSV...)
-
-# 3. Rode o pipeline na ordem
-python extrair_demonstrativos.py   # PDF -> csv/
-python tratar_dados.py             # csv/ -> csv_tratados/
-streamlit run desenvolvimento.py   # dashboard
 ```
 
-## 📐 Premissas e Decisões Técnicas
+Instale as dependências:
 
-- **NOPAT** com alíquota estatutária de 34% (IR+CSLL) — em 2025 a alíquota efetiva
-  é negativa (crédito fiscal), o que distorceria o indicador
-- **WACC** é premissa ajustável (padrão 12%) — o dashboard permite sensibilidade
-- Saldos de balanço em indicadores de retorno usam **média do período** (ano atual + anterior)/2
-- Prazos (DSO/DIO/DPO) calculados com base 360 dias
-- Contas mapeadas pelo **plano de contas padronizado da CVM** (ex.: `3.01` = Receita),
-  o que torna o pipeline reutilizável para qualquer DFP de companhia aberta
+```bash
+pip install -r requirements.txt
+```
 
-## 🔍 Principais Insights do Caso Embraer (2023–2025)
+Configure os caminhos do PDF e das pastas de saída nos scripts.
 
-- Receita +18% em 2025, mas **EBITDA −6%**: crescimento sem alavancagem operacional
-- Resultado financeiro pressionado (cobertura de juros caiu de 2,1x para 0,9x)
-  em ano de refinanciamento massivo da dívida
-- Empresa virou **caixa líquido** (dívida líquida negativa) pela primeira vez na série
-- Ciclo de conversão de caixa melhorou de 161 → 138 dias, mas estoques ainda
-  imobilizam ~R$ 18 bi
-- ROIC (~10%) próximo, porém abaixo do WACC: criação de valor ainda não sustentada
+Execute o pipeline:
 
-## 📁 Estrutura do Repositório
+```bash
+python extrair_demonstrativos.py
+```
 
-decisor-financeiro/  
-├── extrair_demonstrativos.py # Etapa 1: extração do PDF  
-├── tratar_dados.py # Etapa 2: tratamento + formato longo  
-├── desenvolvimento.py # Etapa 3: dashboard Streamlit  
-├── requirements.txt  
+```bash
+python tratar_dados.py
+```
+
+```bash
+streamlit run desenvolvimento.py
+```
+
+---
+
+# 📁 Estrutura do Projeto
+
+```text
+decisor-financeiro/
+
+├── assets/
+│   └── dashboard.png
+│
+├── csv/
+├── csv_tratados/
+│
+├── extrair_demonstrativos.py
+├── tratar_dados.py
+├── desenvolvimento.py
+│
+├── requirements.txt
 └── README.md
+```
+
+---
+
+# 🎯 Próximas Evoluções
+
+- [ ] Upload de PDFs pelo usuário
+- [ ] Comparação entre empresas
+- [ ] Exportação para Excel
+- [ ] Deploy no Streamlit Community Cloud
+- [ ] Integração com APIs de mercado
+- [ ] Geração automática de relatório em PDF
+
+---
+
+## 👨‍💻 Autor
+
+**Danilo Justino**
+
+Projeto desenvolvido para demonstrar competências em:
+
+- Engenharia de Dados
+- Análise Financeira
+- Business Intelligence
+- Python
+- Streamlit
+- Pandas
+- Automação de Processos
