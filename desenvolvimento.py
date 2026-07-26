@@ -5,7 +5,7 @@ import plotly.express as px
 import streamlit as st
 
 # ==== CAMINHO ARQUIVOS ====
-PASTA_CSV =  Path(r"Caminho Pasta\embraer\csv_tratados")
+PASTA_CSV =  Path(r"Caminho_Pasta\embraer\csv_tratados")
 arquivo = PASTA_CSV / "base_demonstrativos_longo.csv"
 aliquota_ir = 0.34
 WACC = 0.14
