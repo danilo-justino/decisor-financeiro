@@ -11,23 +11,20 @@ Pipeline de análise financeira que automatiza a extração de Demonstrações F
 
 ## 📷 Dashboard
 
-> *(<img width="1902" height="911" alt="image" src="https://github.com/user-attachments/assets/f7b743d6-bac0-4e95-a3f7-f95b145e426d" />
+### Home
+
+> <img width="1902" height="911" alt="image" src="https://github.com/user-attachments/assets/f7b743d6-bac0-4e95-a3f7-f95b145e426d" />
+
+### 
+
 <img width="1477" height="817" alt="image" src="https://github.com/user-attachments/assets/79484834-e261-4f9a-83af-7397da5cbfb1" />
+
+###
+
 <img width="1550" height="891" alt="image" src="https://github.com/user-attachments/assets/c1f2791c-28e6-4c73-b48a-c8c156872265" />
-)*
 
-```text
-assets/
-└── dashboard.png
-```
 
-Depois basta inserir:
 
-```markdown
-![Dashboard](assets/dashboard.png)
-```
-
----
 
 ## 🚀 Tecnologias
 
