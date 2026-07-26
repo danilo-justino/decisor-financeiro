@@ -1,7 +1,7 @@
 # decisor-financeiro
 Motor de análise financeira: extração de DFPs (CVM) em PDF → tratamento em pandas → dashboard Streamlit
 
-**Demo ao vivo:** https://seu-link.streamlit.app
+**Demo ao vivo:** [https://seu-link.streamlit.app](https://decisor-financeiro.streamlit.app/)
 
 
 # 📊 Decisor Financeiro
