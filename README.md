@@ -1,6 +1,9 @@
 # decisor-financeiro
 Motor de análise financeira: extração de DFPs (CVM) em PDF → tratamento em pandas → dashboard Streamlit
 
+**Demo ao vivo:** https://seu-link.streamlit.app
+
+
 # 📊 Decisor Financeiro
 
 Pipeline de análise financeira que automatiza a extração de Demonstrações Financeiras Padronizadas (DFPs) da CVM em PDF, realiza o tratamento dos dados com Pandas e disponibiliza um dashboard interativo em Streamlit para análise de liquidez, rentabilidade, endividamento, eficiência operacional, fluxo de caixa e criação de valor.
