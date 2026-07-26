@@ -17,11 +17,11 @@ Pipeline de análise financeira que automatiza a extração de Demonstrações F
 
 ### Estrutura das DFs
 
-<img width="1528" height="835" alt="image" src="https://github.com/user-attachments/assets/7b0a925c-04d1-4dd6-ae10-8f8ba0717c52" />
+> <img width="1528" height="835" alt="image" src="https://github.com/user-attachments/assets/7b0a925c-04d1-4dd6-ae10-8f8ba0717c52" />
 
 ### Crescimento e Valor
 
-<img width="1597" height="882" alt="image" src="https://github.com/user-attachments/assets/3fdc277e-27e9-418a-bc1a-4863eafe8e0b" />
+> <img width="1597" height="882" alt="image" src="https://github.com/user-attachments/assets/3fdc277e-27e9-418a-bc1a-4863eafe8e0b" />
 
 
 
