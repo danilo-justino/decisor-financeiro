@@ -75,7 +75,7 @@ tempo real), deltas com semântica de negócio (ex.: ciclo de caixa caindo = ver
 
 ```bash
 # 1. Clone e instale
-git clone https://github.com/SEU_USUARIO/decisor-financeiro.git
+git clone https://github.com/danilo-justino/decisor-financeiro.git
 cd decisor-financeiro
 pip install -r requirements.txt
 
