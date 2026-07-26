@@ -30,14 +30,14 @@ perguntas como:
 
 ## 🏗️ Arquitetura do Pipeline
 
-  PDF (DFP/CVM) csv/ (brutos) csv_tratados/
-┌──────────────┐ pdfplumber ┌──────────────┐ pandas ┌──────────────────┐
-│ embj.pdf │ ─────────────► │ BP, DRE, DFC │ ─────────► │ base longa (tidy)│
-└──────────────┘ etapa 1 └──────────────┘ etapa 2 └──────────────────┘
-│ streamlit
-▼ etapa 3
-┌──────────────────┐
-│ Dashboard │
+  PDF (DFP/CVM) csv/ (brutos) csv_tratados/  
+┌──────────────┐ pdfplumber ┌──────────────┐ pandas ┌──────────────────┐  
+│ embj.pdf │ ─────────────► │ BP, DRE, DFC │ ─────────► │ base longa (tidy)│  
+└──────────────┘ etapa 1 └──────────────┘ etapa 2 └──────────────────┘  
+│ streamlit  
+▼ etapa 3  
+┌──────────────────┐  
+│ Dashboard │  
 └──────────────────┘
 
 ### Etapa 1 — Extração (`extrair_demonstrativos.py`)
