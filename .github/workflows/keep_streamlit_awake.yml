@@ -1,0 +1,106 @@
+name: keep-streamlit-awake
+
+on:
+  schedule:
+    # Executa a cada 8 horas
+    - cron: "0 */8 * * *"
+  workflow_dispatch:
+
+jobs:
+  keep-alive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar Google Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Instalar dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install selenium
+
+      - name: Verificar Chrome
+        run: |
+          google-chrome --version
+
+      - name: Acessar aplicação
+        run: |
+          python << 'EOF'
+
+          import time
+
+          from selenium import webdriver
+          from selenium.webdriver.chrome.options import Options
+          from selenium.webdriver.common.by import By
+          from selenium.webdriver.support.ui import WebDriverWait
+          from selenium.webdriver.support import expected_conditions as EC
+
+          URL = "https://decisor-financeiro.streamlit.app/"
+
+          options = Options()
+          options.add_argument("--headless=new")
+          options.add_argument("--no-sandbox")
+          options.add_argument("--disable-dev-shm-usage")
+          options.add_argument("--disable-gpu")
+          options.add_argument("--window-size=1920,1080")
+
+          print("=" * 80)
+          print("Abrindo navegador")
+          print("=" * 80)
+
+          driver = webdriver.Chrome(options=options)
+
+          try:
+
+              print(f"Acessando {URL}")
+
+              driver.get(URL)
+
+              WebDriverWait(driver, 90).until(
+                  EC.presence_of_element_located((By.TAG_NAME, "body"))
+              )
+
+              WebDriverWait(driver, 90).until(
+                  lambda d: "PoD Cartões" in d.title
+              )
+
+              time.sleep(10)
+
+              print("=" * 80)
+              print("Título:")
+              print(driver.title)
+
+              print("=" * 80)
+              print("URL Final:")
+              print(driver.current_url)
+
+              print("=" * 80)
+              print("Screenshot...")
+
+              driver.save_screenshot("streamlit.png")
+
+              print("Screenshot salvo.")
+
+              print("=" * 80)
+              print("Aplicação carregada com sucesso!")
+
+          finally:
+              driver.quit()
+
+          EOF
+
+      - name: Upload Screenshot
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: streamlit-screenshot
+          path: streamlit.png
