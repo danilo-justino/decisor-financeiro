@@ -70,7 +70,7 @@ jobs:
               )
 
               WebDriverWait(driver, 90).until(
-                  lambda d: "PoD Cartões" in d.title
+                  lambda d: "Decisor Financeiro" in d.title
               )
 
               time.sleep(10)
