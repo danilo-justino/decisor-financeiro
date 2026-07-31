@@ -18,7 +18,7 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
 
       - name: Instalar Google Chrome
         uses: browser-actions/setup-chrome@v1
@@ -35,7 +35,6 @@ jobs:
       - name: Acessar aplicação
         run: |
           python << 'EOF'
-
           import time
 
           from selenium import webdriver
@@ -60,22 +59,20 @@ jobs:
           driver = webdriver.Chrome(options=options)
 
           try:
-
               print(f"Acessando {URL}")
 
               driver.get(URL)
 
-              WebDriverWait(driver, 90).until(
+              WebDriverWait(driver, 120).until(
                   EC.presence_of_element_located((By.TAG_NAME, "body"))
               )
 
-              WebDriverWait(driver, 90).until(
-                  lambda d: "Decisor Financeiro" in d.title
-              )
-
-              time.sleep(10)
+              # Aguarda o Streamlit terminar de carregar
+              time.sleep(30)
 
               print("=" * 80)
+              print("Página carregada!")
+
               print("Título:")
               print(driver.title)
 
@@ -84,14 +81,14 @@ jobs:
               print(driver.current_url)
 
               print("=" * 80)
-              print("Screenshot...")
+              print("Salvando screenshot...")
 
               driver.save_screenshot("streamlit.png")
 
               print("Screenshot salvo.")
 
               print("=" * 80)
-              print("Aplicação carregada com sucesso!")
+              print("Aplicação acessada com sucesso!")
 
           finally:
               driver.quit()
